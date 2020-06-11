@@ -15,3 +15,4 @@ print("I'm sending:", sending_data)
 conn.send(sending_data.encode())
 
 conn.close()
+sock.close()
